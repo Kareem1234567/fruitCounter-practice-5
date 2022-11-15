@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 10px;
+  background-color: #ffd569;
+  text-align: center;
+}
+.fruit-container {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 15px;
+  min-height: 100%;
+}
+.image {
+  width: 60%;
+  margin-bottom: 20px;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.fruit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.button {
+  background-color: #007bff;
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+  }
+  .image-container {
+    flex-direction: row;
+  }
+}
+.count {
+  color: #ffd569;
+}
